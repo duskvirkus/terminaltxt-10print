@@ -1,0 +1,26 @@
+{
+  "name": "terminaltxt-10print",
+  "version": "1.0.0",
+  "description": "10print example for TerminalTXT Library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/figraham/terminaltxt-10print.git"
+  },
+  "author": "Fi Graham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/figraham/terminaltxt-10print/issues"
+  },
+  "homepage": "https://github.com/figraham/terminaltxt-10print#readme",
+  "dependencies": {
+    "terminaltxt": "0.0.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "parcel": "^1.12.3"
+  }
+}
