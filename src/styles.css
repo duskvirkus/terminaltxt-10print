@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #867ade;
+}
+
+html, body, code {
+  font-family: 'commodore_64_angledregular';
+  font-size: 4vh;
+  line-height: .75rem;
+}
+
+pre {
+  margin: 0px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.termtxt-container {
+  background-color: #483aaa;
+  color: #867ade;
+  height: 80vh;
+}
+
+.container404 {
+  background-color: #483aaa;
+  color: #867ade;
+}
