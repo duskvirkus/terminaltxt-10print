@@ -6,7 +6,7 @@
   "scripts": {
     "404": "parcel ./src/404.html",
     "start": "parcel ./src/index.html",
-    "build": "rm -rf dist && parcel build ./src/index.html ./src/404.html --public-url /terminaltxt-helloworld",
+    "build": "rm -rf dist && parcel build ./src/index.html ./src/404.html --public-url /terminaltxt-10print",
     "deploy": "gh-pages -d ./dist",
     "build-deploy": "npm run build && npm run deploy"
   },

@@ -29,7 +29,7 @@ pre {
 .termtxt-container {
   background-color: #483aaa;
   color: #867ade;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .container404 {
