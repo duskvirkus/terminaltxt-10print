@@ -6,6 +6,9 @@
   "scripts": {
     "404": "parcel ./src/404.html",
     "start": "parcel ./src/index.html",
+    "original": "parcel ./src/original/original.html",
+    "198.5": "parcel ./src/198.5/198.5.html",
+    "unicode": "parcel ./src/unicode/unicode.html",
     "build": "rm -rf dist && parcel build ./src/index.html ./src/404.html --public-url /terminaltxt-10print",
     "deploy": "gh-pages -d ./dist",
     "build-deploy": "npm run build && npm run deploy"
@@ -21,7 +24,7 @@
   },
   "homepage": "https://github.com/figraham/terminaltxt-10print#readme",
   "dependencies": {
-    "terminaltxt": "0.0.4"
+    "terminaltxt": "0.0.6"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",

@@ -1,0 +1,42 @@
+html {
+  --height-var: 40px;
+  font-family: 'commodore_64_angledregular';
+}
+
+body {
+  background-color: #867ade;
+}
+
+html, body, code {
+  font-family: 'commodore_64_angledregular';
+  font-size: var(--height-var);
+  line-height: calc(var(--height-var) * .75);
+}
+
+pre {
+  margin: 0px;
+}
+
+a, a:visited, a:hover, a:link {
+  color: #867ade;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.termtxt-container {
+  background-color: #483aaa;
+  color: #867ade;
+  min-height: calc(var(--height-var) * .8 * 25);
+}
+
+.container {
+  background-color: #483aaa;
+  color: #867ade;
+  padding: 20px;
+  max-width: 40ch;
+  line-height: 1rem;
+}
+
