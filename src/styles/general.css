@@ -1,0 +1,16 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.flex-center, .flex-center-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.flex-center {
+  height: 100%;
+}
