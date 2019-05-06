@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/figraham/terminaltxt-10print#readme",
   "dependencies": {
-    "terminaltxt": "0.0.4"
+    "terminaltxt": "0.0.6"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
