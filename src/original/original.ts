@@ -15,6 +15,7 @@ function init(): void {
     } as TerminalConfig, 
     '                                        ' // start at the correct width
   );
+  loop.frameRate(100);
   commodorePrintOut();
   loop.running(false);
   simulateWriteOut('10 PRINT CHR$(205.5+RND(1)); : GOTO 10', () => {
