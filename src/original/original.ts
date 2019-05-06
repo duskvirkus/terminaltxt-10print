@@ -1,7 +1,8 @@
 import {
   OutputTerminal,
   Loop,
-  TerminalConfig
+  TerminalConfig,
+  random
 } from 'terminaltxt';
 
 let term: OutputTerminal;
@@ -45,10 +46,10 @@ function simulateWriteOut(text: string, callback: Function, endWithNewLine: bool
     setTimeout(() => {
       term.write(text.substring(0, 1));
       simulateWriteOut(text.substring(1, text.length), callback);
-    }, Math.random() * 100 + 50);
+    }, random(50, 150));
   }
 }
 
 function update(): void {
-  term.write(Math.random() > 0.5 ? '\\' : '/');
+  term.write(random() > 0.5 ? '\\' : '/');
 }

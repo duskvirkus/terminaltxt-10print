@@ -1,7 +1,8 @@
 import {
   OutputTerminal,
   Loop,
-  TerminalConfig
+  TerminalConfig,
+  random
 } from 'terminaltxt';
 
 let term: OutputTerminal;
@@ -19,5 +20,5 @@ function init(): void {
 }
 
 function update(): void {
-  term.write(Math.random() > 0.5 ? '╱' : '╲'); // ╳ ╱
+  term.write(random() > 0.5 ? '╱' : '╲');
 }
