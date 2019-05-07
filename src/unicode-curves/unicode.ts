@@ -20,5 +20,10 @@ function init(): void {
 }
 
 function update(): void {
-  term.write(random() > 0.5 ? '╱' : '╲');
+  term.write(randomChar('╭╮╯╰'));
+}
+
+function randomChar(characters: string): string {
+  let rand = Math.floor(random(characters.length));
+  return characters.substring(rand, rand + 1);
 }
