@@ -12,7 +12,7 @@ function init(): void {
   term = new OutputTerminal(
     {
       width: 40,
-      container: document.getElementById('container'),
+      container: document.getElementById('container-10print'),
     } as TerminalConfig, 
     '                                        ' // start at the correct width
   );
