@@ -1,7 +1,7 @@
 # TerminalTXT 10PRINT Example
 10PRINT example for [TerminalTXT Library](https://github.com/figraham/terminaltxt-source).
 
-[Live Site](https://figraham.github.io/terminaltxt-10print/index.html)
+[Live Site](http://10print.createdby.fi)
 
 Other links:
 - [10Print Book](https://10print.org/)
